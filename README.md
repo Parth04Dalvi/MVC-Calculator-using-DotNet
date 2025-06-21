@@ -17,3 +17,44 @@ A simple calculator web application built with **ASP.NET Core MVC (.NET 6)**. It
 
 ## 🏗️ Project Structure
 
+MVCCalculator/
+├── Controllers/
+│ └── CalculatorController.cs
+├── Models/
+│ └── CalculatorModel.cs
+├── Views/
+│ └── Calculator/
+│ └── Index.cshtml
+├── Program.cs
+├── Startup.cs
+├── MVCCalculator.csproj
+
+
+---
+
+## 📸 Demo
+
+![UI Screenshot](docs/screenshot.png) <!-- Optional: Add if you have a screenshot -->
+
+---
+
+## 🛠️ How to Run
+
+Make sure you have [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installed.
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/MVCCalculator.git
+cd MVCCalculator
+
+# 2. Restore dependencies
+dotnet restore
+
+# 3. Build the project
+dotnet build
+
+# 4. Run the app
+dotnet run
+
+
+navigate to https://localhost:5001/Calculator
