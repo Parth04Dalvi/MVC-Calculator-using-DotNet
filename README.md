@@ -32,12 +32,6 @@ MVCCalculator/
 
 ---
 
-## 📸 Demo
-
-![UI Screenshot](docs/screenshot.png) <!-- Optional: Add if you have a screenshot -->
-
----
-
 ## 🛠️ How to Run
 
 Make sure you have [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installed.
