@@ -17,17 +17,9 @@ A simple calculator web application built with **ASP.NET Core MVC (.NET 6)**. It
 
 ## 🏗️ Project Structure
 
-MVCCalculator/
-├── Controllers/
-│ └── CalculatorController.cs
-├── Models/
-│ └── CalculatorModel.cs
-├── Views/
-│ └── Calculator/
-│ └── Index.cshtml
-├── Program.cs
-├── Startup.cs
-├── MVCCalculator.csproj
+![image](https://github.com/user-attachments/assets/42a28273-e6a1-4bcd-8582-2e974e9a583a)
+
+
 
 
 ---
