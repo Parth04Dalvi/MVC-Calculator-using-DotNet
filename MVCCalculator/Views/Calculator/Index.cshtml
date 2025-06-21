@@ -1,0 +1,37 @@
+@model MVCCalculator.Models.CalculatorModel
+
+@{
+    ViewData["Title"] = "MVC Calculator";
+}
+
+<h2>MVC Calculator</h2>
+
+<form asp-action="Index" method="post">
+    <input asp-for="Num1" placeholder="First Number" />
+    <select asp-for="Operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input asp-for="Num2" placeholder="Second Number" />
+    <button type="submit">Calculate</button>
+</form>
+
+<hr />
+
+@if (ViewContext.HttpContext.Request.Method == "POST")
+{
+    if (Model.Result.HasValue)
+    {
+        <div>
+            <strong>Result:</strong> @Model.Num1 @Model.Operator @Model.Num2 = <b>@Model.Result</b>
+        </div>
+    }
+    else
+    {
+        <div style="color:red;">
+            <strong>Error:</strong> Invalid operation or divide by zero.
+        </div>
+    }
+}
